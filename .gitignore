@@ -16,7 +16,6 @@
 .prettierignore
 
 /node_modules
-.github/**/node_modules
 /coverage
 /cli
 /lib
@@ -24,7 +23,7 @@
 /example
 .vscode
 .DS_Store
-.parcel-cache
+parcel-cache
 tailwind.config.js
 index.html
 yarn.lock
