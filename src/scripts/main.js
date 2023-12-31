@@ -7,7 +7,7 @@ const summary = {
     visual: document.getElementById("summary__visual"),
   },
   jsonData: {
-    url: "../../data.json",
+    url: "data.json",
     player1: "player1",
     player2: "player2",
   },
