@@ -35,7 +35,7 @@ Your users should be able to:
 
 ### Screenshot
 
-![Results Summary Component](./screenshot.jpg)
+![Results Summary Component](./docs/screenshots/screenshot.png)
 
 ### Links
 
