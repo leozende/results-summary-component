@@ -1,4 +1,5 @@
 {
+  "homepage": "https://leozende.github.io/results-summary-component-main",
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "prettier": "^3.1.1",
@@ -6,6 +7,8 @@
     "tailwindcss": "^3.4.0"
   },
   "scripts": {
-    "build":"npx tailwindcss -i ./src/styles/main.css -o ./dist/output.css"
+    "build":"npx tailwindcss -i ./src/styles/main.css -o ./dist/output.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   }
 }
